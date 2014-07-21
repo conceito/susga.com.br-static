@@ -1,0 +1,17 @@
+
+
+.ta-editor {
+    height: 150px  !important;
+    overflow: auto;
+    font-family: inherit;
+    font-size: 100%;
+    margin:20px 0;
+    
+    border: #C9C9C9 solid 1px;
+}
+
+.ta-editor.ta-html{
+    border: rgb(0, 163, 255) solid 1px;
+    height: 100px !important;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "MeuCMS",
+    "description": "CMS bases on CodeIgniter.",
+    "keywords": ["framework", "codeigniter", "cms"],
+    "license": "MIT",
+    "require": {
+	    "ensepar/html2pdf": "1.0.*@dev"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "classmap": [
+            "vendor/"
+        ],
+        "psr-0": {
+            "Gestalt\\": "app/",
+            "Cms\\": "app/modules/cms/"
+        }
+    },
+    "scripts": {
+    },
+    "config": {
+        "preferred-install": "dist",
+        "process-timeout": 4000,
+        "vendor-dir": "vendor"
+    },
+    "minimum-stability": "stable"
+}

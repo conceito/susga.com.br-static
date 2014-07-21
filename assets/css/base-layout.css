@@ -1,0 +1,681 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    /* background: #b3d4fc; */
+    text-shadow: none;
+}
+
+hr {
+    display: inline-block;
+    height: 1px;
+    border: 1px;
+    border-top: 9px solid #ffffff;
+    margin: 1em 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    BASE
+|=================================================================================
+*/
+body{
+    background-image: url(../img/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: "Lato Light";
+}
+h1{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    font-family: "Lato";
+    font-size: 44px;
+    color: #444444;
+    font-weight: 500;
+}
+h3{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 24px;
+}
+h4{
+    font-family: "Lato Regular";
+    font-size: 21px;
+}
+h5{
+    font-family: "Lato";
+    font-size: 19px;
+}
+h6{
+    font-family: "Lato Light";
+    font-size: 12px;
+}
+li {
+    font-family: "Lato";
+}
+.menu2-right{
+        margin-top: 10px;
+        color: #ffffff;
+    }
+
+
+
+.menu1-body-right {
+    font-family: "Lato Regular";
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    LAYOUT
+|---------------------------------------------------------------------------------
+*/
+
+
+#header p{
+    margin-top: 24px;
+    font-size: 16px;
+    float:right;
+}
+
+.redes{
+    float: left;
+    padding-left: 80px;
+}
+.redes p{
+    font-size: 12px;
+}
+li{
+    font-size: 15px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: normal;
+    border-color: white;
+}
+ul{	list-style-type: none;}
+.telefone{
+    font-family: "Lato Regular";
+    font-size: 35px;
+    margin-top: 0;
+    text-align: right;
+    margin-left: 10px;
+}
+.cert {
+    float:right
+}
+
+#footer {
+    background-color: #35A2A2;
+}
+
+.place{
+    margin: 25px 0 35px 0;
+}
+.unidade {
+    font-size: 12px;
+    color: #1C5555;
+    display: inline;
+    text-shadow: 0 1px #97DFE6;
+}
+
+.local-unidade{
+    font-size: 22px; 
+    color: #FFFFFF;
+    margin-top: -25px;
+    margin-left: 9px;
+}
+.local{
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.trabalhe{
+    width: 220px;
+    margin: 25px 0 20px 0;
+    background-color: #2E8D8D;
+    border-radius: 7px;
+    box-shadow: 0 2px 0 #8AC9C9;
+    float: right;
+}
+
+.trabalhe p {
+    text-align: center;
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-family: "Lato Regular";
+    font-size: 16px;
+
+}
+.atendimento{
+    float: right;
+    display:block;
+}
+.central{
+    float: right;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.central h6{
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.central h4{
+    margin-top: 0;
+    text-align: right;
+}
+
+.text-center{
+    color: #ffffff;
+    font-size:12px;
+}
+.bt{
+    border-radius: 5px 5px 0 0;
+    min-width: 270px;
+}
+
+.transparent{
+    background: rgba(94,187,80,0.8);
+}
+
+.transparent-right{
+    background-color: rgba(149,194,61,0.8);
+}
+
+.transparent-right-body{
+    background-color: rgba(106,139,44,0.2);
+}
+
+.icon-right{
+    float:right;
+
+}
+.bt h3{
+    display: inline;
+    color: #ffffff;
+}
+
+.menu1{
+    background: rgba(94,187,80,0.8);
+    margin-top: 0%;
+}
+
+.menu1-body{
+    background-color: rgba(52,114,44,0.2);
+    width: 53.6%;
+    margin-left: 3%;
+}
+
+.menu1-body-right{
+    background-color: rgba(106,139,44,0.2);
+    margin-bottom: 20px;
+    display: block;
+    width: 38.6666%;
+    margin-left: 59.88888%;
+    margin-top: -22%;
+}
+
+.transparent-body{
+
+}
+
+.menu2{
+    background: rgba(0,181,197,0.55);
+    width: 1070;
+}
+
+.menu2 .borda-menu2{
+    background: rgba(0,136,147,0.22);
+    margin-top: 40px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-style:solid;
+    margin-left: 33px;
+    margin-bottom: 30px;
+
+    /* padding-left: 40px; */
+    width: 94%;
+}
+.opiniao {
+    width: 420px;
+    height: 60px;
+    margin: 25px 0 20px 0;
+    background-color: #00B5C5;
+    border-radius: 7px;
+    box-shadow: 0 2px 0 #8AC9C9;
+    border-color: #AEE8EC;
+    border-width: 1px;
+    border-style:solid;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+.opiniao p {
+    text-align: center;
+    /* padding-top: 14px; */
+    color: #FFFFFF;
+    font-family: "Lato Regular";
+    font-weight: bold;
+    font-size: 15px;
+    display: inline;
+    margin: 0px;
+}
+
+.menu2-right{
+    margin-top: 10px;
+    /* margin-right: -16px; */
+    /* margin-left: -14px; */
+}
+
+.menu2-right h5{
+    color: #ffffff;
+    font-weight: bold;
+}
+.menu2-right p{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:"Lato";
+}
+
+.menu-opiniao{
+    width: 73%;
+}
+
+.txt-carrossel{
+   position: absolute;
+    background-color: rgba(255,255,255,0.7);
+   width: 97%;
+   margin-top: 3px;
+}
+.menu2 .container .row:nth-child(2){
+    margin-bottom: 35px;
+}
+
+.img-destaque{
+    width: 100%;
+    text-align: center;
+}
+.txt-carrossel img{
+    float: left;
+}
+.txt-carrossel p{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: lighter;
+    font-family: "Lato Light";
+    color: #333635;
+}
+.col-xs-12 .col-md-3{
+    float: right;
+}
+.txt-destaque{
+    position: absolute;
+    margin-top: 120%;
+    margin-left: -3%;
+    background-color: rgba(255,255,255,0.9);
+    width: 97%;
+}
+.txt-destaque p{
+    font-size: 19px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: "Lato Regular";
+    color: #333433;
+}
+.menu1-body-right p{
+    margin-left: 20%;
+    padding-top: 4%;
+}
+
+.barra-menu1{
+    border-top-width: 1px;
+    border-top-color: #ffffff;
+    border-top-style: solid;
+    width: 108%;
+    margin-left: -4%;
+}
+
+.barra-menu1 p{
+    float: right;
+    font-family: "Lato Bold";
+    font-size: 12px;
+}
+.barra-menu1 .col-md-2{
+    height: 4px;
+    background-color: #ffffff;
+    margin-left: 30%;
+    float: right;
+}
+.carrossel-menu2 .flex-control-nav{
+    display: none;
+}
+.carrossel-menu2 .flex-direction-nav{
+    display: none;
+}
+.barra-left-menu1 {
+    border-top-width: 1px;
+    border-top-color: #ffffff;
+    border-top-style: solid;
+    width: 106%;
+    margin-left: -3%;
+}
+.barra-left-menu1 p{
+    font-family: "Lato Bold";
+    color: #ffffff;
+    float: right;
+    font-size: 12px;
+    /* margin-top: 2%; */
+    padding-top: 4%;
+}
+.barra-left-menu1 .col-md-2{
+    height: 4px;
+    background-color: #ffffff;
+    margin-right: -21%;
+    float: right;
+    margin-top: 8%;
+}
+
+.foto-exame{
+    display: inline;
+    margin: 4%;
+}
+
+.menu1-body h5{
+    diplay: inline;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: bold;
+}
+.menu1-body p{
+    diplay: inline;
+    color: #ffffff;
+    font-family: "Lato Regular";
+}
+
+.carrossel-menu1 .flex-direction-nav{
+    display: none;
+}
+.carrossel-menu1 .flex-control-nav{
+    text-align: left;
+    bottom: -25%;
+    margin-left: 4%;
+}
+
+.carrossel-menu1 .flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.carrossel-menu1 .flexslider{
+    margin: 0;
+}
+
+.redes-internas{
+    float: right;
+}
+.fundo-interno{
+    background-color: #EEEEEE;
+    margin-top: -0.5%;
+    background-color: rgba(218,218,218,0.55);
+}
+.fundo-interno p {
+    font-family: "Lato Light";
+    font-size: 15px;
+    color: #333333;
+}
+.fundo-interno li{
+    color: #333333;
+    font-weight: normal;
+    list-style-type: disc;
+}
+.missao{
+    background: #369DAF;
+    background: rgba(54,157,175,0.1);
+}
+.missao h1{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.missao p{
+    /* padding-left: 40px; */
+    /* padding-bottom: 20px; */
+    /* padding-right: 40px; */
+    padding: 0 40px 20px 40px;
+}
+
+
+/* ==========================================================================
+   *
+   * mNNNNNNNNm     
+   * y````````y   
+   * y        s  
+   * y        s  
+   * y        s  
+   * y        s  
+   * d+++--+++d 
+   * NMMN//MMMN  
+   *
+   *
+   * PHONE ONLY !!!
+   ========================================================================== */
+
+@media all and (max-width: 768px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   * 
+   * +yyyyhhhhdddddddddms
+   * sh-..............-Nd      mmddddddddddddddddddddddddddmm
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * yd`              .Md      M+                          /M
+   * yd`              .Md   +  M+                          /M
+   * yd`              .Md      MmddddddddddddddddddddddddddmM
+   * yd.              .Md      mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * yd.              .Md      ```````````:dddddd/```````````
+   * sdhdddddddmmmmmmmmNy                /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * TABLET and  UP
+   ========================================================================== */
+
+@media all and (min-width: 768px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddmm
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * MmddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ```````````:dddddd/```````````
+   *           /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 980px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddddddddddddmm
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * MmddddddddddddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ````````````````:dddddd/````````````````
+   *             /dMMMMMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * RUGE DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 1281px) {
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

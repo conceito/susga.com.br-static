@@ -1,0 +1,150 @@
+/********************************************************
+************ ESTILOS BÁSICOS PARA EDIÇÃO ****************
+***** COLOCAR PLUGINS ESPECÍFICOS NA PARTE DE BAIXO *****
+*** PARA ESCONDER UMA CLASSE USER #tinymce COMO PARENT **
+********************************************************/
+body, h1, h2, h3, h4, h5, h6, img, div, span, p, form, input, textarea, li{
+	margin: 0px;
+	padding: 0px;	
+}
+img{	border-style: none;	}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+	padding:10px;	
+}
+p, ul, ol{
+	line-height: 18px;
+	margin-bottom: 18px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	margin: 12px 0;
+}
+h3 {
+	font-size: 18px;
+	line-height:18px;
+	font-weight: bold;
+	margin: 9px 0;
+}
+h4 {
+	font-size: 16px;
+	line-height:16px;
+	font-weight: bold;
+	margin: 8px 0;
+}
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 7px 0;
+	color:#666;
+	text-transform:uppercase;
+}
+
+blockquote { border-left: 3px solid #999; page-break-inside: avoid; margin: 1em 30px; padding:0 0 0 10px;}
+/********* TABELA **************/
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5714em;
+}
+table th, table td {
+  padding: 8px;
+  font-size:12px;
+  line-height: 1.5714em;
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+table th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+table td {
+  vertical-align: top;
+}
+.table thead:first-child tr th, .table thead:first-child tr td {
+  border-top: 0;
+}
+.table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.table-condensed th, .table-condensed td {
+  padding: 4px 5px;
+}
+#tinymce .table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.table-bordered th + th,
+.table-bordered td + td,
+.table-bordered th + td,
+.table-bordered td + th {
+  border-left: 1px solid #ddd;
+}
+.table-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+.table-bordered thead:first-child tr:first-child th:first-child, .table-bordered tbody:first-child tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+.table-bordered thead:first-child tr:first-child th:last-child, .table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+.table-bordered thead:last-child tr:last-child th:first-child, .table-bordered tbody:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+}
+.table-bordered thead:last-child tr:last-child th:last-child, .table-bordered tbody:last-child tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+
+
+
+/********************************************************
+************************ PLUGINS ************************
+********************************************************/
+/*======================================================
+=======================  SLIDER  =======================
+======================================================*/
+#tinymce .slider, #mceTemplatePreview .slider{
+	margin-bottom: 18px;
+	padding:5px;
+	background:#EFEFEF;
+	border:#CCC solid 5px;
+	text-align:center;
+	cursor:help;
+	-webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; 
+}
+#tinymce .slider:hover{
+	box-shadow:2px 2px 5px rgba(0,0,0,.3);
+}
+#tinymce .slider .help, #mceTemplatePreview .slider .help{
+	display:block;
+	font-size:10px;
+	border:#900 dashed 1px;
+	padding:1px;
+	margin-top:5px;
+}
+
+.youtube{}

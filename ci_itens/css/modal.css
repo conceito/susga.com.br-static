@@ -1,0 +1,452 @@
+@charset "utf-8";
+body, div, span, p, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, select, fieldset{
+	margin: 0px;
+	padding: 0px;	
+}
+img{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+ul, li{
+	list-style-type: none;	
+}
+body {
+	background:#fff url(../img/modal-bg.jpg) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 20px;
+	color: #444;
+}
+p{
+	padding-bottom: 18px;
+	line-height: 18px;	
+}
+a:link, a:visited{
+	color: #098bd5;
+	text-decoration: underline;	
+}
+a:hover, a:active{
+	color: #0943d5;
+	text-decoration: none;
+}
+
+.titulo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #62bdcf;
+	background: url(../img/ico-modal.gif) no-repeat left center;
+	padding-left: 45px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.barra-menu {
+	background: #f4fbfc;
+	padding: 5px;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.barra-menu span{
+	font-weight: bold;
+	color: #09C;
+	padding-right: 10px;
+}
+.barra-menu a:link, .barra-menu a:visited {
+	text-decoration: underline;
+	background: url(../img/ico-link-modal.gif) no-repeat left center;
+	margin-right: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 13px;
+}
+.modal-dicas {
+	padding: 5px 10px 10px;
+	border: 1px dashed #FC0;
+}
+.modal-dicas legend {
+	color: #752300;
+}
+
+.modal-dicas ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+.barra-menu a:hover, .barra-menu a:active {
+	text-decoration: none;
+	background: url(../img/ico-link-modal.gif) no-repeat 2px center;
+	
+}
+.resposta-ok{
+	background: #f3e781 url(../img/ico-modal-ok.jpg) no-repeat 15px 10px;
+	padding: 20px 10px 15px 53px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.resposta-erro{
+	background: #f3e781 url(../img/ico-modal-erro.jpg) no-repeat 15px 10px;
+	padding: 20px 10px 15px 53px;
+	font-weight: bold;
+	color: #900;
+	margin-bottom: 15px;
+}
+div.erros{
+	color: #C00;
+	clear: both;
+	margin-left: 140px;	
+	background: url(../img/bullet_error.png) no-repeat left center;
+	padding-left: 20px;
+}
+
+#modalform label {
+	float: left;
+	width: 130px;
+	padding-top: 5px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+#modalform .input-longo {
+	background: #FFF url(../img/form-bg.gif) repeat-x;
+	height: 23px;
+	width: 320px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 1px solid #b6d509;
+	margin-bottom: 15px;
+}
+#modalform .input-titulo{
+	font-weight: bold;
+	color: #098bd5;	
+}
+#modalform .input-apelido {
+	height: 23px;
+	width: 320px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: none;
+	margin-bottom: 15px;
+	font-style: italic;
+	background: #F9F9F9;
+}
+#modalform .input-curto {
+	background: #FFF url(../img/form-bg.gif) repeat-x;
+	height: 23px;
+	width: 160px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 1px solid #b6d509;
+	margin-bottom: 15px;
+}
+#modalform .textarea-curto {
+	background: #FFF url(../img/form-bg.gif) repeat-x;
+	height: 90px;
+	width: 320px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 1px solid #b6d509;
+	margin-bottom: 15px;
+}
+#modalform .buttom{
+	padding: 4px 5px;
+}
+#modalform .botoes-modal {
+	text-align: right;
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+#modalform .nova-dims {
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+#modalform .input-num {
+	width: 25px;
+	background: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#modalform .botoes-modal a {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.input-combo {
+/*	background: #FFF url(../img/form-bg.gif) repeat-x;*/
+	border: 1px solid #b6d509;
+	/*margin-left: 10px;*/
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+
+
+
+.desc-model {
+	height: 60px;
+	width: 500px;
+	border: 1px solid #eceaeb;
+}
+.desc-model:hover {
+	height: 60px;
+	width: 500px;
+	border: 1px solid #32C0EF;
+}
+
+.combo-conteudo-ajax{
+	display:inline;
+}
+
+.clear {
+	clear: both;
+}
+.clear.debug{
+	font-size: 14px;
+	color: #060;
+	font-weight:bold;
+	text-align:center;
+	background-color:#EDF7CE;
+	padding:5px;
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; 
+	display:none;	
+}
+.preview {
+	text-align: center;
+	clear: both;
+	position: relative;
+}
+.preview ul {
+	text-align: center;
+	width: 100%;
+}
+.preview .img {
+	padding: 5px;
+	border: 1px solid #e0dfe5;
+	position: relative;
+	width: 130px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.preview .img img {
+	/*float: left;*/
+	position: relative;
+}
+.preview .img .controles {
+	background: #FFC;
+	/*float: right;*/
+	/*width: 20px;*/
+	margin-left: 5px;
+	position: relative;
+}
+.preview .arq {
+	padding: 5px;
+	border: 1px solid #e0dfe5;
+	position: relative;
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.preview .arq .ext{
+font-size: 16px;
+	font-weight: bold;
+	color: #c03312;
+	position: relative;
+		
+}
+
+a.bot-verde:link, a.bot-verde:visited {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	background: url(../img/bot-verde-1.gif);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	*padding-top: 0px;/* ie7 hack*/
+	*padding-bottom: 0px;/* ie7 hack*/
+	*padding-left: 0px;/* ie7 hack*/
+	margin-left: 10px;
+}
+a.bot-verde:hover, a.bot-verde:active {
+	background: url(../img/bot-verde-3.gif);
+}
+a.bot-verde span {
+	background: url(../img/bot-verde-2.gif) no-repeat right top;
+
+	padding: 3px 8px 3px 5px;
+	margin-right: -3px;
+	
+}
+a.bot-verde span:hover {
+	background: url(../img/bot-verde-4.gif) no-repeat right top;
+}
+
+
+
+h3 {
+	color: #098bd5;
+	clear: both;
+	margin-top: 15px;
+	padding-left: 140px;
+	border-bottom: 1px solid #83cfdd;
+	margin-bottom: 10px;
+}
+h4 {
+	font-weight: bold;
+	color: #8da310;
+	border-bottom: 1px solid #b6d509;
+	margin-bottom: 10px;
+	clear: both;
+	margin-top: 5px;
+}
+.lista-opcoes-giro li {
+	float: left;
+	margin-right: 10px;
+}
+.lista-opcoes-giro li img, .lista-opcoes-corte li img {
+	float: left;
+	margin-right: 5px;
+}
+.lista-opcoes-giro li a, .lista-opcoes-corte li a {
+	text-decoration: none;
+}
+.cinza14 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+}
+.lista-opcoes-corte li {
+	float: left;
+	width: 120px;
+	margin-right: 10px;
+}
+.img-infos {
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #eceaeb;
+}
+.img-infos img {
+	float: right;
+	margin-left: 20px;
+}
+.img-infos .nome-arquivo {
+	font-weight: bold;
+	color: #900;
+}
+.voce-esta-aqui {
+	background: url(../img/pasta-busca.gif) no-repeat left center;
+	height: 24px;
+	padding-top: 6px;
+	padding-left: 40px;
+}
+ul.lista-pastas li {
+	background: url(../img/pasta-go.gif) no-repeat left 3px;
+	float: left;
+	padding-left: 20px;
+	width: 200px;
+	padding-bottom: 10px;	
+}
+ul.lista-pastas li:hover {
+	background:#FDFCF2 url(../img/pasta-go.gif) no-repeat left 3px;
+}
+ul.lista-imagens li {
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: #f0eff6;
+}
+ul.lista-imagens li a {
+	display: block;
+	height: 80px;
+	width: 80px;
+	
+}
+ul.lista-imagens li:hover{
+	background: #fff;
+}
+ul.lista-imagens li.selected{
+	background: #f3e781;
+}
+ul.lista-imagens .click-add {
+	font-weight: bold;
+	background: #FFF;
+	text-align: center;
+	border: 1px solid #396;
+	position: absolute;
+	font-size: 11px;
+	padding: 0px 5px;
+	color: #396;
+	display:none;
+}
+ul.lista-imagens .click-del {
+	font-weight: bold;
+	background: #FFF;
+	text-align: center;
+	border: 1px solid #900;
+	position: absolute;
+	font-size: 11px;
+	padding: 0px 5px;
+	color: #900;
+	display:none;
+}
+
+#painel-mensagens .lista {
+	border-bottom: 1px solid #f3e781;
+	width: 100%;
+}
+#painel-mensagens .lista li {
+	background: #fdfcf4;
+	display: block;
+	width: 97%;
+	padding: 5px;
+	border-top: 1px solid #f3e781;
+	border-right: 1px solid #f3e781;
+	border-bottom: 1px none #f3e781;
+	border-left: 1px solid #f3e781;
+}
+#painel-mensagens .lista li .imp {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #d00d0d;
+	display: inline;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#painel-mensagens .lista li .apelido {
+	font-size: 11px;
+}
+#painel-mensagens .lista li .assunto {
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+#painel-mensagens .lista li .assunto.lido {
+	font-weight: bold;
+	color: #666;
+}
+#painel-mensagens .lista li .mensagem {
+	background: #FFF;
+	padding: 5px;
+	display: none;
+}
